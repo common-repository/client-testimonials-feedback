@@ -1,0 +1,46 @@
+.ctesti-list-item {margin: 0px 0px 30px; padding:30px; border: 1px solid #000; display: flex; flex-wrap: wrap; }
+.ctesti-list-left{width: 20%;}
+.ctesti-list-content{width: 80%; padding-left: 30px;}
+.clear{clear:both; }
+.testimonial-title {font-size: 30px; line-height: 36px; margin: 0 0 30px; letter-spacing: 1px; font-weight: bold; }
+.ctesti-list-author {font-weight: bold; letter-spacing: 1px; margin: 15px 0px 0px; font-size:20px; line-height: 22px; }
+.ctesti-list-author-postion {font-size: 16px; opacity: 0.6; }
+.testimonial-slider {padding: 25px; background:transparent; }
+.ctesti-text,
+.ctesti-list-text {font-size: 16px; line-height: 24px; }
+.ctesti-author {font-weight: bold; letter-spacing: 1px; margin: 20px 0px 0px; font-size:20px; }
+.ctesti-author-postion {font-size: 16px; opacity: 0.6; }
+.ctesti-content{position:relative; padding:30px; }
+.ctesti-item{padding: 0px 30px; }
+.ctesti-image{width:150px; height:150px; overflow:hidden; margin:0px auto; }
+.ctesti-image > img,
+.ctesti-list-image > img{width:100%; min-height: 100%; }
+.testimonial-slider .slick-dots{bottom:15px; left:0px; }
+.testimonial-slider .slick-prev,
+.testimonial-slider .slick-next{background-repeat: no-repeat; background-position: center center; background-color: #000; width: 35px; height: 35px; background-size: 50%; outline:none; -moz-outline:none; -ms-outline:none; -o-outline:none; -webkit-outline:none; opacity:0.8; }
+.testimonial-slider .slick-prev:hover,
+.testimonial-slider .slick-next:hover{opacity:1; }
+.testimonial-slider .slick-prev:focus,
+.testimonial-slider .slick-next:focus{outline:none; -moz-outline:none; -ms-outline:none; -o-outline:none; -webkit-outline:none; }
+.testimonial-slider .slick-prev {background-image: url(../images/left-arrow.png); left:20px; }
+.testimonial-slider .slick-next{background-image: url(../images/right-arrow.png); right:20px; }
+@media only screen and (max-width:1440px) {
+
+}
+@media only screen and (max-width:1200px) {
+	.ctesti-image {width: 130px; height: 130px;}
+}
+@media only screen and (max-width:767px) {
+	.testimonial-slider{padding: 0px;}
+	.ctesti-item{padding: 0px;}
+	.ctesti-content {padding: 30px 0; }
+	.testimonial-slider .slick-dots{bottom: 0px;}
+}
+@media only screen and (max-width:600px) {
+	.ctesti-author { font-size:18px;}
+	.ctesti-list-author{font-size:18px;}
+}
+@media only screen and (max-width:480px) {
+	.ctesti-list-item {padding: 30px 20px;}
+	.ctesti-list-content{width: 100%; padding: 10px 0px 0px;}
+}
